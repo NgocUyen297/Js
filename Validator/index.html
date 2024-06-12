@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/asset/style.css" />
+    <title>JS</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="" class="form" id="form">
+        <h1 class="from__heading">Các thành viên đăng kí</h1>
+        <p class="form-subheading">Đây là sub heading</p>
+        <div class="form-group invalid">
+          <label for="fullname" class="form-label">Full name</label>
+          <input
+            type="text"
+            placeholder="Your full name"
+            class="form-input"
+            id="fullname"
+            name="fullname"
+          />
+          <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            placeholder="Email"
+            id="email"
+            class="form-input"
+            name="email"
+          />
+          <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            placeholder="Your password"
+            class="form-input"
+            id="password"
+            name="password"
+          />
+          <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="password-comfirm" class="form-label"
+            >Re-enter the password</label
+          >
+          <input
+            type="password"
+            placeholder="Your password"
+            class="form-input"
+            id="password-comfirm"
+            name="password-comfirm"
+          />
+          <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="avatar" class="form-label">Avatar</label>
+          <input type="file" class="avatar" id="avatar" name="avatar" />
+          <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="form-label">Gender</label>
+          <div>
+            <input type="checkbox" class="=gender" name="gender" value="male" />
+            Nam
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="=gender"
+              name="gender"
+              value="female"
+            />
+            Nữ
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="=gender"
+              name="gender"
+              value="other"
+            />
+            Khác
+          </div>
+          <span class="form-message"></span>
+        </div>
+
+        <button class="form-btn">Submit</button>
+      </form>
+    </div>
+
+    <script src="./validateForm.js"></script>
+  </body>
+</html>
