@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "id": "2",
+      "title": "test2",
+      "views": "12"
+    },
+    {
+      "id": "4",
+      "title": "test3",
+      "views": "12"
+    },
+    {
+      "id": "f528",
+      "title": "test5",
+      "views": "12"
+    }
+  ]
+}
